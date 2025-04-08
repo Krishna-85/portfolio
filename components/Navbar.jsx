@@ -15,16 +15,16 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
         sideMenuRef.current.style.transform = 'translate(16rem)'
     }
 
-    useEffect(()=>{
-      window.addEventListener('scroll',()=>{
-        if(scrollY > 50){
-            setIsScroll(true)
-        }else{
-            setIsScroll(false)
+    // useEffect(()=>{
+    //   window.addEventListener('scroll',()=>{
+    //     if(scrollY > 50){
+    //         setIsScroll(true)
+    //     }else{
+    //         setIsScroll(false)
 
-        }
-      })
-    },[])
+    //     }
+    //   })
+    // },[])
 
   return (
     < >
