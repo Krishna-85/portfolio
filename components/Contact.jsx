@@ -32,6 +32,7 @@ const Contact = () => {
     };
 
   return (
+    <>
     <motion.div 
     initial={{opacity:0}}
     whileInView={{opacity:1}}
@@ -86,6 +87,11 @@ const Contact = () => {
             <p className='mt-4'>{result}</p>
         </motion.form>
     </motion.div>
+    <div className='flex items-center justify-center'>
+
+    <iframe className='border' src="https://www.google.co.in/maps/d/u/0/embed?mid=1yLUH3O9u_Rd1SiCxdIj7lCoyiLXb3Zk&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
+    </div>
+    </>
   )
 }
 
