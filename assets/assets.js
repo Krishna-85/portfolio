@@ -35,6 +35,10 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import github_icon from './github-icon-1.svg'
+import docker from './docker-4.svg'
+import chatgpt from './chatgpt-6.svg'
+import postman from './postman.svg'
 
 export const assets = {
     user_image,
@@ -73,7 +77,11 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    github_icon,
+    chatgpt,
+    docker,
+    postman
 };
 
 export const workData = [
@@ -113,5 +121,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.firebase, assets.mongodb, assets.git, assets.github_icon, assets.docker,  assets.postman, assets.chatgpt
 ];

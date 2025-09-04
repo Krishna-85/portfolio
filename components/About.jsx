@@ -1,4 +1,4 @@
-import { assets, infoList, toolsData } from "@/assets/assets";
+import { assets,   infoList, toolsData } from "@/assets/assets";
 import Image from "next/image";
 import React from "react";
 import { motion } from "motion/react";
@@ -36,6 +36,7 @@ const About = () => {
         transition={{ duration: 0.8 }}
         className="flex w-full flex-col lg:flex-row items-center gap-20 my-20 "
       >
+
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -64,7 +65,7 @@ const About = () => {
           <motion.ul
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 1 }}
+            transition={{ duration: 0.5, delay: 1 }}
             className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl"
           >
             {infoList.map(({ icon, iconDark, title, description }, index) => (
@@ -136,7 +137,7 @@ const About = () => {
             {toolsData.map((tool, index) => (
               <motion.li
                 whileHover={{ scale: 1.1 }}
-                className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer  hover:-translate-y-1 duration-500"
+                className="flex items-center flex-wrap justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer  hover:-translate-y-1 duration-500"
                 key={index}
               >
                 <Image src={tool} alt="Tool" className="w-5 sm:w-7 " />
