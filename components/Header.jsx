@@ -29,7 +29,7 @@ const Header = () => {
        whileInView={{opacity:1}}
        transition={{duration:0.6, delay:0.7}}
        className='max-w-2xl mx-auto font-Ovo'>
-        I am a Full stack Devloper from India, I Have joined a Bootcamp in MERN @Sheryians coding school at Bhopal, Madhya Pradesh. 
+        I am a Full Stack Developer from India with 10 months of professional experience. I have successfully completed an internship and am a certified MERN Stack Developer from Sheryians Coding School, Bhopal, Madhya Pradesh 
       </motion.p>
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
         <motion.a
