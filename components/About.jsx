@@ -94,7 +94,7 @@ const About = () => {
               {/* Image */}
               <div className="w-full sm:w-[90%] h-56 relative mb-4 sm:mb-0 sm:mr-5">
                 <Image
-                  src="/VaibhavPratapcertificate-kodr.png"
+                  src={assets.Certificate}
                   alt="Certificate"
                   fill
                   className="object-contain rounded-lg"

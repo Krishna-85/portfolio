@@ -39,6 +39,7 @@ import github_icon from './github-icon-1.svg'
 import docker from './docker-4.svg'
 import chatgpt from './chatgpt-6.svg'
 import postman from './postman.svg'
+import Certificate from './VaibhavPratapcertificate-kodr.png'
 
 export const assets = {
     user_image,
@@ -81,7 +82,8 @@ export const assets = {
     github_icon,
     chatgpt,
     docker,
-    postman
+    postman,
+    Certificate
 };
 
 export const workData = [
