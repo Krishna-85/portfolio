@@ -32,15 +32,15 @@ const Work = () => {
          whileInView={{ opacity:1}}
          transition={{delay:0.9, duration:0.6}}
         className='grid grid-cols-[repeat(auto-fit,_minmax(200px,_1fr))] my-10 gap-5 '>
-            {workData.map((project, index)=>(
+         
                 <motion.div 
                  whileHover={{scale:1.05}}
                  transition={{duration:0.3}}
-                key={index} className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group' style={{backgroundImage:`url(${project.bgImage})`}}>
+                 className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group' style={{backgroundImage:`url(/work-2.png)`}}>
                     <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7'>
                     <div>
-                        <h2 className='font-semibold'>{project.title}</h2>
-                        <p className='text-sm text-gray-700'>{project.description}</p>
+                        <h2 className='font-semibold'>BG-Remover</h2>
+                        <p className='text-sm text-gray-700'>Web app</p>
                     </div>
                     <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
                       <Image src={assets.send_icon} alt='send icon' className='w-5'/>
@@ -49,7 +49,56 @@ const Work = () => {
                     
                    
                 </motion.div>
-            ))}
+                <motion.div 
+                 whileHover={{scale:1.05}}
+                 transition={{duration:0.3}}
+                 className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group' style={{backgroundImage:`url(https://res.cloudinary.com/dtjd5n7wq/image/upload/v1745563998/Screenshot_2025-04-25_121006_bxzvwj.png)`}}>
+                    <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7'>
+                    <div>
+                        <h2 className='font-semibold'>BG-Remover</h2>
+                        <p className='text-sm text-gray-700'>Web app <a href="https://bg-remover-h89r.vercel.app/"></a></p>
+                    </div>
+                    <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
+                      <Image src={assets.send_icon} alt='send icon' className='w-5'/>
+                    </div>
+                    </div>
+                    
+                   
+                </motion.div>
+
+                <motion.div 
+                 whileHover={{scale:1.05}}
+                 transition={{duration:0.3}}
+                 className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group' style={{backgroundImage:`url(/work-2.png)`}}>
+                    <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7'>
+                    <div>
+                        <h2 className='font-semibold'>BG-Remover</h2>
+                        <p className='text-sm text-gray-700'>Web app</p>
+                    </div>
+                    <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
+                      <Image src={assets.send_icon} alt='send icon' className='w-5'/>
+                    </div>
+                    </div>
+                    
+                   
+                </motion.div>
+
+                <motion.div 
+                 whileHover={{scale:1.05}}
+                 transition={{duration:0.3}}
+                 className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group' style={{backgroundImage:`url(/work-2.png)`}}>
+                    <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7'>
+                    <div>
+                        <h2 className='font-semibold'>BG-Remover</h2>
+                        <p className='text-sm text-gray-700'>Web app</p>
+                    </div>
+                    <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
+                      <Image src={assets.send_icon} alt='send icon' className='w-5'/>
+                    </div>
+                    </div>
+                    
+                   
+                </motion.div>
         </motion.div>
 
         <motion.a

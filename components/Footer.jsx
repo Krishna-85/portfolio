@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 
 const Footer = () => {
+    
   return (
     <div className="mt-20">
       <div className="text-center">
@@ -26,6 +27,8 @@ const Footer = () => {
                 <a target="_blank" href="https://www.instagram.com/krishna_85__/">Instagram</a>
             </li>
         </ul>
+       
+
      </div>
 
     </div>
